@@ -4,9 +4,7 @@ module.exports = {
   },
 
   create(req, res) {
-    console.log(req.body);
-    console.log('hello here I am');
-
-    res.send({ hi: 'there'});
-  }
+    // console.log('req body is: ', req.body);
+    res.send({ created: 'driver'});
+  },
 }

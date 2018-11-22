@@ -6,9 +6,4 @@ const app = express();
 app.use(bodyParser.json());
 routes(app);
 
-// app.get('/api', (req, res) => {
-//   res.send({ hi: 'there'});
-// });
-
-
 module.exports = app;
